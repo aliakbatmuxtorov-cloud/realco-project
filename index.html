@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Find house for your family in minutes</title>
+    <link rel="shortcut icon" href="img/svg/Vector.svg" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <audio src="audio/background-music.m4a" id="bg-music" autoplay loop></audio>
+    <section class="message">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="message_contentBox">
+              <a href="#" class="text text-xs"
+                >Get your dream house in a week.</a
+              ><i class="fa-solid fa-xmark" id="message_close"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <header class="header">
+      <div class="container">
+        <div class="row header_row">
+          <div class="col-6 col-lg-2">
+            <div class="header_logoBox">
+              <a href="#"><img src="img/svg/IMAGE (1).svg" alt="logo" /></a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-10">
+            <ul class="header_menu">
+              <i class="fa-solid fa-xmark" id="header_close"></i>
+              <li><a href="#" class="text text-sm">Home</a></li>
+              <li class="header_dropdown">
+                <div class="header_dropdownTitle text text-sm">
+                  <span class="">Properties</span
+                  ><i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="header_dropdownContent">
+                  <a href="#" class="text text-sm">Lorem Link # 1</a
+                  ><a href="#" class="text text-sm">Lorem Link # 2</a
+                  ><a href="#" class="text text-sm">Lorem Link # 3</a>
+                </div>
+              </li>
+              <li><a href="#" class="text text-sm">About</a></li>
+              <li><a href="#" class="text text-sm">Contact</a></li>
+              <li>
+                <form action="" class="header_form" autocomplete="off">
+                  <div>
+                    <input
+                      type="text"
+                      required
+                      placeholder="Search"
+                      class="text text-sm"
+                      id="search"
+                    /><label for="search" class="text text-sm"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></label>
+                  </div>
+                  <button class="button button-brown">Find a property</button>
+                </form>
+              </li>
+              <li>
+                <a href="#" class="button"
+                  ><i class="fa-solid fa-bag-shopping"></i><span>Cart</span></a
+                >
+              </li>
+            </ul>
+            <i class="fa-solid fa-bars" id="header_bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="home">
+      <div class="home_textBox">
+        <span class="pill">Find your dream place</span>
+        <h1 class="title title-lg">Find house for your family in minutes</h1>
+        <p class="text text-lg">
+          Aenean sodales mauris quis tellus facilisis, vel mattis magna.
+          Interdum curabitur eget aliquam elit in mauris purus.
+        </p>
+        <form action="" class="home_form" autocomplete="off">
+          <div>
+            <input
+              type="text"
+              required
+              placeholder="Search"
+              class="text text-lg"
+              id="home_search"
+            /><label for="home_search" class="text text-lg"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></label>
+          </div>
+          <button class="button button-brown">Find a property</button>
+        </form>
+      </div>
+      <div class="home_imgBox">
+        <img src="img/jpg/home_img.jpg" alt="image" />
+      </div>
+    </section>
+    <section class="sponsors">
+      <div class="container">
+        <div class="row sponsors_row">
+          <div class="col-12 col-md-4 col-xl-3">
+            <div class="sponsors_textBox">
+              <p class="text text-darkgreen">
+                As seen on the world's best magazines and media
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-8 col-xl-9">
+            <div class="sponsors_imgBox">
+              <a href="#"
+                ><img src="img/svg/IMAGE (2).svg" alt="sponsor" /></a
+              ><a href="#"
+                ><img src="img/svg/IMAGE (3).svg" alt="sponsor" /></a
+              ><a href="#"
+                ><img src="img/svg/IMAGE (4).svg" alt="sponsor" /></a
+              ><a href="#"
+                ><img src="img/svg/IMAGE (5).svg" alt="sponsor" /></a
+              ><a href="#"
+                ><img src="img/svg/IMAGE (6).svg" alt="sponsor"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="work">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
+            <div class="work_titleBox">
+              <h2 class="title">How it works</h2>
+              <p class="text">
+                Nunc laoreet consequat nunc at consequat. Praesent aliquam mi id
+                efficitur pellentesque. Maecenas varius felis felis.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row work_row">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="work_card">
+              <i class="fa-solid fa-house-chimney"></i>
+              <h5 class="title title-sm">Find property</h5>
+              <p class="text text-sm">
+                Odales mauris quis tellus facilisis, vel mattis magna interdum.
+                Curabitur eget aliquam elit. In mauris purus, auctor a eleifend
+                non.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="work_card">
+              <i class="fa-solid fa-receipt"></i>
+              <h5 class="title title-sm">Make a deal</h5>
+              <p class="text text-sm">
+                Pellentesque suscipit mauris. Nam dictum, erat a volutpat
+                varius, urna nisi sollicitudin orci, sagittis facilisis odio
+                tortor ac mi.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="work_card">
+              <i class="fa-solid fa-key"></i>
+              <h5 class="title title-sm">Get your keys</h5>
+              <p class="text text-sm">
+                Nulla vel bibendum purus. Etiam tempus quam vel pulvinar rutrum.
+                Duis semper, metus vitae fermentum consequat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="container">
+        <div class="row gallery_row">
+          <div class="col-12 col-lg-6">
+            <div class="gallery_textBox">
+              <span class="pill">Comfort first</span>
+              <h3 class="title">The best houses for family comfort</h3>
+              <p class="text">
+                Ectus ipsum faucibus justo, et semper quam nisl in nibh. Proin
+                sollicitudin, lorem non posuere blandit.
+              </p>
+              <div class="gallery_btnBox">
+                <a href="#" class="button">Explore properties</a
+                ><a href="#" class="button button-arrow"
+                  ><span>Contact agent</span
+                  ><i class="fa-solid fa-angle-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="gallery_imgBox">
+              <img src="img/jpg/gallery_img1 (1).jpg" alt="house" />
+            </div>
+          </div>
+        </div>
+        <div class="row gallery_row">
+          <div class="order-2 order-lg-1 col-12 col-lg-6">
+            <div class="gallery_imgBox">
+              <img src="img/jpg/gallery_img2.jpg" alt="house" />
+            </div>
+          </div>
+          <div class="order-1 order-lg-2 col-12 col-lg-6">
+            <div class="gallery_textBox">
+              <span class="pill">Quick and easy</span>
+              <h3 class="title">Fast forward process</h3>
+              <p class="text">
+                Ut vitae nisi eu nisi maximus condimentum ac id purus. Duis sit
+                amet mi arcu praesent nec felis nisl.
+              </p>
+              <div class="gallery_cardBox">
+                <div class="gallery_card">
+                  <i class="fa-solid fa-money-bills"></i>
+                  <h5 class="title title-xs">Affordable prices</h5>
+                  <p class="text text-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse varius enim in eros.
+                  </p>
+                </div>
+                <div class="gallery_card">
+                  <i class="fa-solid fa-file-contract"></i>
+                  <h5 class="title title-xs">Less paper work</h5>
+                  <p class="text text-sm">
+                    Curabitur porta luctus semper donec eget lobortis leo ac
+                    finibus nisi.
+                  </p>
+                </div>
+              </div>
+              <div class="gallery_btnBox">
+                <a href="#" class="button">Explore properties</a
+                ><a href="#" class="button button-arrow"
+                  ><span>Contact agent</span
+                  ><i class="fa-solid fa-angle-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="houses">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
+            <div class="houses_titleBox">
+              <span class="pill">Properties</span>
+              <h4 class="title">Houses in your favorite area</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row houses_cardBox row-gap-4">
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="houses_card">
+              <div class="houses_imgBox">
+                <img src="img/jpg/home_img.jpg" alt="house" />
+              </div>
+              <div class="houses_textBox">
+                <a href="#" class="title title-sm"
+                  >Cozy studio in Los Angeles</a
+                >
+                <h6 class="title">$ 1,200.00 USD</h6>
+                <p class="text text-sm">
+                  <i class="fa-solid fa-location-dot"></i
+                  ><span>2263 Southlea, Los Angeles</span>
+                </p>
+                <div>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-bath"></i><span>2</span>
+                  </p>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-bed"></i><span>2</span>
+                  </p>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-ruler-combined"></i
+                    ><span>840 sqft</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="houses_card">
+              <div class="houses_imgBox">
+                <img src="img/jpg/houses_img2.jpg" alt="house" />
+              </div>
+              <div class="houses_textBox">
+                <a href="#" class="title title-sm">Tiny home in San Diego</a>
+                <h6 class="title">$ 740,000.00 USD</h6>
+                <p class="text text-sm">
+                  <i class="fa-solid fa-location-dot"></i
+                  ><span>2569 El Segundo, San Diego</span>
+                </p>
+                <div>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-bath"></i><span>1</span>
+                  </p>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-bed"></i><span>2</span>
+                  </p>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-ruler-combined"></i
+                    ><span>400 sqft</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="houses_card">
+              <div class="houses_imgBox">
+                <img src="img/jpg/houses_img3.jpg" alt="house" />
+              </div>
+              <div class="houses_textBox">
+                <a href="#" class="title title-sm">Crown house in New York</a>
+                <h6 class="title">$ 980,000.00 USD</h6>
+                <p class="text text-sm">
+                  <i class="fa-solid fa-location-dot"></i
+                  ><span>4489 Smity Fielda, New York</span>
+                </p>
+                <div>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-bath"></i><span>2</span>
+                  </p>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-bed"></i><span>4</span>
+                  </p>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-ruler-combined"></i
+                    ><span>3200 sqft</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="houses_card">
+              <div class="houses_imgBox">
+                <img src="img/jpg/houses_img4.jpg" alt="house" />
+              </div>
+              <div class="houses_textBox">
+                <a href="#" class="title title-sm"
+                  >Family house in Los Angeles</a
+                >
+                <h6 class="title">$ 4,200.00 USD</h6>
+                <p class="text text-sm">
+                  <i class="fa-solid fa-location-dot"></i
+                  ><span>2263 Southlea, Los Angeles</span>
+                </p>
+                <div>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-bath"></i><span>2</span>
+                  </p>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-bed"></i><span>3</span>
+                  </p>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-ruler-combined"></i
+                    ><span>1400 sqft</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="houses_card">
+              <div class="houses_imgBox">
+                <img src="img/jpg/posts_img5.jpg" alt="house" />
+              </div>
+              <div class="houses_textBox">
+                <a href="#" class="title title-sm">Studio in Las Vegas</a>
+                <h6 class="title">$ 820,000.00 USD</h6>
+                <p class="text text-sm">
+                  <i class="fa-solid fa-location-dot"></i
+                  ><span>2569 Halls Corner, Las Vegas</span>
+                </p>
+                <div>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-bath"></i><span>2</span>
+                  </p>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-bed"></i><span>3</span>
+                  </p>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-ruler-combined"></i
+                    ><span>2400 sqft</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="houses_card">
+              <div class="houses_imgBox">
+                <img src="img/jpg/houses_img6.jpg" alt="house" />
+              </div>
+              <div class="houses_textBox">
+                <a href="#" class="title title-sm">San Diego story</a>
+                <h6 class="title">$ 3,700.00 USD</h6>
+                <p class="text text-sm">
+                  <i class="fa-solid fa-location-dot"></i
+                  ><span>2569 El Segundo, San Diego</span>
+                </p>
+                <div>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-bath"></i><span>1</span>
+                  </p>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-bed"></i><span>2</span>
+                  </p>
+                  <p class="text text-sm">
+                    <i class="fa-solid fa-ruler-combined"></i
+                    ><span>650 sqft</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="houses_btnBox">
+              <a href="#" class="button">Explore properties</a
+              ><a href="#" class="button button-arrow"
+                ><span>Contact agent</span
+                ><i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="locations">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
+            <div class="locations_titleBox">
+              <h4 class="title">Locations</h4>
+              <p class="text">
+                Nunc mi ante, fringilla eget iaculis et, maximus vel purus
+                integer lacus urna, aliquet non nisl sit amet.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row locations_cardBox row-gap-4">
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="locations_card">
+              <h5 class="title title-xs">San Francisco, CA</h5>
+              <a href="#" class="button button-arrow"
+                ><span>View Properties</span
+                ><i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="locations_card">
+              <h5 class="title title-xs">Los Angeles, CA</h5>
+              <a href="#" class="button button-arrow"
+                ><span>View Properties</span
+                ><i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="locations_card">
+              <h5 class="title title-xs">San Diego, CA</h5>
+              <a href="#" class="button button-arrow"
+                ><span>View Properties</span
+                ><i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="locations_card">
+              <h5 class="title title-xs">New York, NY</h5>
+              <a href="#" class="button button-arrow"
+                ><span>View Properties</span
+                ><i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="locations_card">
+              <h5 class="title title-xs">Las Vegas, NV</h5>
+              <a href="#" class="button button-arrow"
+                ><span>View Properties</span
+                ><i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="locations_card">
+              <h5 class="title title-xs">Miami, FL</h5>
+              <a href="#" class="button button-arrow"
+                ><span>View Properties</span
+                ><i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="locations_btnBox">
+              <a href="#" class="button">Explore properties</a
+              ><a href="#" class="button button-arrow"
+                ><span>Contact agent</span
+                ><i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="start">
+      <div class="container start_container">
+        <div class="row">
+          <div class="col-12">
+            <div class="start_textBox">
+              <i class="fa-solid fa-people-group"></i>
+              <h4 class="title">Families are our priority</h4>
+              <p class="text">
+                Curabitur eget aliquam elit. In mauris purus, auctor a eleifend
+                non, placerat vel arcu. In non consectetur lorem. Morbi non
+                varius sapien suscipit mauri.
+              </p>
+              <a href="#" class="button button-brown">Get started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="comments">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
+            <div class="comments_titleBox">
+              <h4 class="title">What customers say</h4>
+              <p class="text">
+                Faucibus orci luctus et ultrices posuere cubilia curae.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="swiper comments_swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide comments_slide">
+                  <div class="comments_stars">
+                    <i class="fa-solid fa-star gold"></i
+                    ><i class="fa-solid fa-star gold"></i
+                    ><i class="fa-solid fa-star gold"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i>
+                  </div>
+                  <p class="text text-darkgreen">
+                    "Aliquam erat volutpat. Nulla pretium nec urna et convallis.
+                    Ut varius mi lacus, nec molestie libero ultricies nec.
+                    Aenean lacinia dui elit, ut gravida quam."
+                  </p>
+                  <div class="comments_user">
+                    <div class="comments_userImg">
+                      <img src="img/jpg/comments_user1 (1).jpg" alt="user" />
+                    </div>
+                    <div class="comments_userText">
+                      <h6 class="text text-sm text-darkgreen">Michael Webb</h6>
+                      <p class="text text-sm">Customer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide comments_slide">
+                  <div class="comments_stars">
+                    <i class="fa-solid fa-star gold"></i
+                    ><i class="fa-solid fa-star gold"></i
+                    ><i class="fa-solid fa-star gold"></i
+                    ><i class="fa-solid fa-star gold"></i
+                    ><i class="fa-solid fa-star gold"></i>
+                  </div>
+                  <p class="text text-darkgreen">
+                    "Class aptent taciti sociosqu ad litora torquent per conubia
+                    nostra, per inceptos himenaeos. Morbi pretium iaculis
+                    ultricies. Aenean in leo vitae tortor."
+                  </p>
+                  <div class="comments_user">
+                    <div class="comments_userImg">
+                      <img src="img/jpg/comments_user2 (1).jpg" alt="user" />
+                    </div>
+                    <div class="comments_userText">
+                      <h6 class="text text-sm text-darkgreen">Amber Keene</h6>
+                      <p class="text text-sm">Manager</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide comments_slide">
+                  <div class="comments_stars">
+                    <i class="fa-solid fa-star gold"></i
+                    ><i class="fa-solid fa-star gold"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i>
+                  </div>
+                  <p class="text text-darkgreen">
+                    "Condimentum viverra orci. Pellentesque suscipit odio nisl,
+                    non ultricies purus mattis eget. In placerat, lorem a
+                    sodales ullamcorper, eros nibh laoreet nisl."
+                  </p>
+                  <div class="comments_user">
+                    <div class="comments_userImg">
+                      <img src="img/jpg/comments_user3.jpg" alt="user" />
+                    </div>
+                    <div class="comments_userText">
+                      <h6 class="text text-sm text-darkgreen">
+                        Sarah Tarleton
+                      </h6>
+                      <p class="text text-sm">UI / UX Designer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide comments_slide">
+                  <div class="comments_stars">
+                    <i class="fa-solid fa-star gold"></i
+                    ><i class="fa-solid fa-star gold"></i
+                    ><i class="fa-solid fa-star gold"></i
+                    ><i class="fa-solid fa-star gold"></i
+                    ><i class="fa-solid fa-star"></i>
+                  </div>
+                  <p class="text text-darkgreen">
+                    "Tempore officia odit cumque. Eligendi iste totam placeat
+                    non consequatur nisi minus ratione voluptatum, nostrum
+                    obcaecati aspernatur earum accusamus, fuga culpa maiores.
+                    Quisquam eveniet odit veniam, illo praesentium illum
+                    consequatur totam numquam."
+                  </p>
+                  <div class="comments_user">
+                    <div class="comments_userImg">
+                      <img src="img/jpg/comments_user4.jpg" alt="user" />
+                    </div>
+                    <div class="comments_userText">
+                      <h6 class="text text-sm text-darkgreen">John Doe</h6>
+                      <p class="text text-sm">Waiter</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide comments_slide">
+                  <div class="comments_stars">
+                    <i class="fa-solid fa-star gold"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i>
+                  </div>
+                  <p class="text text-darkgreen">
+                    "Consequatur sit libero illum! Quae eum libero nobis aliquid
+                    veritatis a maiores minus! Est iusto, quis error impedit
+                    enim molestias dicta aut, expedita animi quaerat quos
+                    reiciendis iste praesentium, nostrum iure. Facilis!"
+                  </p>
+                  <div class="comments_user">
+                    <div class="comments_userImg">
+                      <img src="img/jpg/comments_user5.jpg" alt="user" />
+                    </div>
+                    <div class="comments_userText">
+                      <h6 class="text text-sm text-darkgreen">Mc Keen</h6>
+                      <p class="text text-sm">Mover</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="posts">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="posts_titleBox">
+              <span class="pill">Blog</span>
+              <h4 class="title">Latest posts</h4>
+              <div>
+                <p class="text">
+                  Vestibulum ante ipsum primis in faucibus orci luctus et
+                  ultrices posuere cubilia curae. Praesent efficitur nibh massa
+                  morbi sagittis ornare dui in ornare.
+                </p>
+                <a href="#" class="button">View all</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="swiper posts_swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide posts_slide">
+                  <div class="posts_imgBox">
+                    <img src="img/jpg/home_img.jpg" alt="house" />
+                  </div>
+                  <div class="posts_textBox">
+                    <div>
+                      <span class="pill pill-brown">Trends</span
+                      ><span class="pill">May 10, 2022</span>
+                    </div>
+                    <h5 class="title title-sm">The 9 best homes in New York</h5>
+                    <p class="text text-sm">
+                      Integer tincidunt rutrum faucibus. Proin sit amet varius
+                      arcu. Aliquam vel leo augue donec.
+                    </p>
+                    <a href="#" class="button button-arrow"
+                      ><span>Read more</span
+                      ><i class="fa-solid fa-angle-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="swiper-slide posts_slide">
+                  <div class="posts_imgBox">
+                    <img src="img/jpg/houses_img2.jpg" alt="house" />
+                  </div>
+                  <div class="posts_textBox">
+                    <div>
+                      <span class="pill pill-brown">DIY</span
+                      ><span class="pill">May 10, 2022</span>
+                    </div>
+                    <h5 class="title title-sm">
+                      How to easily buy a house with Realco
+                    </h5>
+                    <p class="text text-sm">
+                      Praesent nec felis nisl. Phasellus eget lacus a metus
+                      fringilla fermentum sit amet.
+                    </p>
+                    <a href="#" class="button button-arrow"
+                      ><span>Read more</span
+                      ><i class="fa-solid fa-angle-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="swiper-slide posts_slide">
+                  <div class="posts_imgBox">
+                    <img src="img/jpg/posts_img3.jpg" alt="house" />
+                  </div>
+                  <div class="posts_textBox">
+                    <div>
+                      <span class="pill pill-brown">Trends</span
+                      ><span class="pill">May 10, 2022</span>
+                    </div>
+                    <h5 class="title title-sm">
+                      Renting houses - complete guide
+                    </h5>
+                    <p class="text text-sm">
+                      Nunc in bibendum leo, gravida scelerisque quam nulla
+                      interdum tellus a turpis.
+                    </p>
+                    <a href="#" class="button button-arrow"
+                      ><span>Read more</span
+                      ><i class="fa-solid fa-angle-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="swiper-slide posts_slide">
+                  <div class="posts_imgBox">
+                    <img src="img/jpg/posts_img4.jpg" alt="house" />
+                  </div>
+                  <div class="posts_textBox">
+                    <div>
+                      <span class="pill pill-brown">DIY</span
+                      ><span class="pill">May 10, 2022</span>
+                    </div>
+                    <h5 class="title title-sm">
+                      Consectetur iure perferendis itaque nihil odit.
+                    </h5>
+                    <p class="text text-sm">
+                      Placeat facere sequi at dolorem minima excepturi suscipit
+                      reprehenderit dolor voluptates quos?
+                    </p>
+                    <a href="#" class="button button-arrow"
+                      ><span>Read more</span
+                      ><i class="fa-solid fa-angle-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="swiper-slide posts_slide">
+                  <div class="posts_imgBox">
+                    <img src="img/jpg/posts_img5.jpg" alt="house" />
+                  </div>
+                  <div class="posts_textBox">
+                    <div>
+                      <span class="pill pill-brown">Trends</span
+                      ><span class="pill">May 10, 2022</span>
+                    </div>
+                    <h5 class="title title-sm">
+                      Vitae aliquam porro quas praesentium minus!
+                    </h5>
+                    <p class="text text-sm">
+                      Soluta perspiciatis provident dolorum deserunt voluptates
+                      laudantium dolores atque quo excepturi! Quas.
+                    </p>
+                    <a href="#" class="button button-arrow"
+                      ><span>Read more</span
+                      ><i class="fa-solid fa-angle-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row footer_row">
+          <div class="col-12 col-md-4 col-lg-6 col-xl-2 order-1 order-xl-1">
+            <div class="footer_logoBox">
+              <a href="#"><img src="img/svg/IMAGE (1).svg" alt="logo" /></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-xl-2 order-3 order-xl-2">
+            <div class="footer_linkBox">
+              <h6 class="title title-xs">Pages</h6>
+              <ul>
+                <li><a href="#" class="text text-xs">Home</a></li>
+                <li><a href="#" class="text text-xs">About</a></li>
+                <li><a href="#" class="text text-xs">Blog</a></li>
+                <li><a href="#" class="text text-xs">Agents</a></li>
+                <li><a href="#" class="text text-xs">Contact</a></li>
+                <li><a href="#" class="text text-xs">FAQs</a></li>
+                <li><a href="#" class="text text-xs">Properties</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-xl-2 order-4 order-xl-3">
+            <div class="footer_linkBox">
+              <h6 class="title title-xs">CMS Pages</h6>
+              <ul>
+                <li><a href="#" class="text text-xs">Property</a></li>
+                <li><a href="#" class="text text-xs">Property Single</a></li>
+                <li><a href="#" class="text text-xs">Blog Categories</a></li>
+                <li><a href="#" class="text text-xs">Blog Single</a></li>
+                <li><a href="#" class="text text-xs">Agent Single</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-xl-2 order-5 order-xl-4">
+            <div class="footer_linkBox">
+              <h6 class="title title-xs">Utility Pages</h6>
+              <ul>
+                <li><a href="#" class="text text-xs">Style Guide</a></li>
+                <li><a href="#" class="text text-xs">Changelog</a></li>
+                <li><a href="#" class="text text-xs">Licenses</a></li>
+                <li><a href="#" class="text text-xs">404</a></li>
+                <li><a href="#" class="text text-xs">Password</a></li>
+                <li><a href="#" class="text text-xs">Search</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-8 col-lg-6 col-xl-4 order-2 order-xl-5">
+            <div class="footer_subscribe">
+              <h6 class="title title-xs">Subscribe</h6>
+              <p class="text text-sm">
+                Join our newsletter to stay up to date on features and releases.
+              </p>
+              <form
+                action="https://formspree.io/f/mldplagd"
+                method="POST"
+                autocomplete="off"
+              >
+                <input
+                  type="email"
+                  required
+                  placeholder="Enter your email"
+                  name="Email:"
+                  class="text text-sm"
+                /><button class="button button-brown">Subscribe</button>
+              </form>
+              <div>
+                <span class="text text-xs"
+                  >By subscribing you agree to with our</span
+                ><a href="#" class="text text-xs">Privacy Policy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section class="developers">
+      <div class="container">
+        <div class="row developers_row">
+          <div class="col-12 col-lg-8">
+            <div class="developers_textBox">
+              <a
+                href="https://macademy.uz/"
+                target="_blank"
+                class="text text-sm"
+                ><i class="fa-solid fa-copyright"></i
+                >
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="developers_iconBox">
+              <a href="#" class="text text-dark"
+                ><i class="fa-brands fa-square-facebook"></i></a
+              ><a href="#" class="text text-dark"
+                ><i class="fa-brands fa-square-instagram"></i></a
+              ><a href="#" class="text text-dark"
+                ><i class="fa-brands fa-square-x-twitter"></i></a
+              ><a href="#" class="text text-dark"
+                ><i class="fa-brands fa-square-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
